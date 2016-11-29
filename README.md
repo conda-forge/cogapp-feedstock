@@ -9,7 +9,22 @@ Feedstock license: BSD 3-Clause
 
 Summary: Cog: A code generator for executing Python snippets in source files.
 
+Cog is a file generation tool. It lets you use pieces of Python
+code as generators in your source files to generate whatever text
+you need.
 
+
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/cogapp-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/cogapp-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/cogapp-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/cogapp-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/cogapp-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/cogapp-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/cogapp/badges/version.svg)](https://anaconda.org/conda-forge/cogapp)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/cogapp/badges/downloads.svg)](https://anaconda.org/conda-forge/cogapp)
 
 Installing cogapp
 =================
@@ -31,7 +46,6 @@ It is possible to list all of the versions of `cogapp` available on your platfor
 ```
 conda search cogapp --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -67,18 +81,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/cogapp-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/cogapp-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/cogapp-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/cogapp-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/cogapp-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/cogapp-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/cogapp/badges/version.svg)](https://anaconda.org/conda-forge/cogapp)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/cogapp/badges/downloads.svg)](https://anaconda.org/conda-forge/cogapp)
 
 
 Updating cogapp-feedstock
