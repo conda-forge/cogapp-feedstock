@@ -1,6 +1,6 @@
 {% set name = "cogapp" %}
-{% set version = "3.0.0" %}
-{% set sha256 = "5e5da2bcfc4e4750c66cecb80ea4eaed1ef4fddd3787c989d4f5bfffb1152d6a" %}
+{% set version = "3.1.0" %}
+{% set sha256 = "c43e374ee5ca2a35fbc68556f598bd8578eabe8a890487980bba56945b5ce9c6" %}
 
 package:
   name: {{ name|lower }}
@@ -12,11 +12,11 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 2
+  number: 0
   script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
-  build:
+  host:
     - python
     - setuptools
 
