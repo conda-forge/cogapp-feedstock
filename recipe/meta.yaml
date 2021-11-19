@@ -29,7 +29,7 @@ test:
     - cogapp
   commands:
     - pip check
-    - cog --help
+    - cog -h
   requires:
     - pip
 
