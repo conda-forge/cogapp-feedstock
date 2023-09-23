@@ -11,7 +11,7 @@ source:
   sha256: 1be95183f70282422d594fa42426be6923070a4bd8335621f6347f3aeee81db0
 
 build:
-  number: 5
+  number: 6
   skip: true   # [py<36]
   entry_points:
     - cog = cogapp:main
