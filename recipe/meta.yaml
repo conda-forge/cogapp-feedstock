@@ -1,5 +1,5 @@
 {% set name = "cogapp" %}
-{% set version = "3.3.0" %}
+{% set version = "3.5.0" %}
 
 
 package:
@@ -7,12 +7,12 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/cogapp-{{ version }}.tar.gz
-  sha256: 1be95183f70282422d594fa42426be6923070a4bd8335621f6347f3aeee81db0
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/cogapp-{{ version }}.tar.gz
+  sha256: f190c4a0f04bb389320a668bc71b13b0b886c0aa1cfa8e7a95bd7ef912e0e3b1
 
 build:
-  number: 6
-  skip: true   # [py<36]
+  number: 0
+  skip: true  # [py<36]
   entry_points:
     - cog = cogapp:main
   script: {{ PYTHON }} -m pip install . -vv
